@@ -1,0 +1,15 @@
+
+uniform mat4 u_Projection;
+uniform mat4 u_View;
+uniform mat4 u_ViewInverse;
+uniform mat4 u_Model;
+
+varying vec2 v_UV;
+varying vec3 v_Light;
+
+void main()
+{
+  v_UV        = gl_MultiTexCoord0.xy;
+  v_Light     = (u_ViewInverse * vec4(0,0,0,1) - gl_Vertex).xyz;
+  gl_Position = u_Projection * u_View * u_Model * gl_Vertex;
+}

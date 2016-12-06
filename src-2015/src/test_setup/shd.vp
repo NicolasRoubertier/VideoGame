@@ -1,0 +1,11 @@
+
+uniform mat4 u_Perspective;
+uniform mat4 u_ModelView;
+
+varying vec3 v_Clr;
+
+void main()
+{
+  v_Clr       = gl_Color.xyz;
+  gl_Position = u_Perspective * u_ModelView * gl_Vertex;
+}

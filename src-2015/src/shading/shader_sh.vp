@@ -1,0 +1,17 @@
+// SL 2012-02-08
+
+uniform mat4 Proj;
+uniform mat4 View;
+uniform mat4 Model;
+
+varying vec3 v_Nrm;
+varying vec2 v_Tex;
+varying vec3 v_SrfPos;
+
+void main()
+{
+  v_Nrm       = (Model * vec4(gl_Normal,0)).xyz;
+  v_SrfPos    = (Model * gl_Vertex).xyz;
+  v_Tex       = gl_MultiTexCoord0.xy;
+  gl_Position = Proj * View * Model * gl_Vertex;
+}

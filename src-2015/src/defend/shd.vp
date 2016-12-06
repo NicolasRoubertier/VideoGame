@@ -1,0 +1,9 @@
+
+uniform mat4 u_Perspective;
+uniform mat4 u_View;
+uniform mat4 u_Model;
+
+void main()
+{
+  gl_Position = u_Perspective * u_View * u_Model * gl_Vertex;
+}

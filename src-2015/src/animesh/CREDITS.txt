@@ -1,0 +1,15 @@
+.X Animated models from:
+http://www.xbdev.net/3dformats/x/xfileformat.php
+
+Mini knight:
+http://opengameart.org/content/little-box-knight
+
+Wolf:
+http://opengameart.org/content/winter-wolf-normal-wolf
+
+Dog:
+http://opengameart.org/content/benny-the-rottweiler
+
+Mech:
+http://opengameart.org/content/mech
+
