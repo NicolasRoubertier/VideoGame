@@ -1,0 +1,11 @@
+- Sprites from  gfxlib-fuzed
+  http://www.spicypixel.net/2008/01/10/gfxlib-fuzed-a-free-developer-graphic-library/
+
+- Concrete textures from Allegorithmic
+
+- Tower and crossbow models grabbed from Google Sketchup Warehouse
+
+- PlaneCute tile set from
+  http://www.lostgarden.com/2007/05/dancs-miraculously-flexible-game.html
+
+- Cute Cthulhu Walker http://www.thingiverse.com/thing:17714
